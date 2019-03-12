@@ -1,23 +1,35 @@
-class Solution:
-    def searchInsert(self, nums: 'List[int]', target: 'int') -> 'int':
-        left = 0
-        right = len(nums) - 1
-        mid = 0
-        while (left < right):
+'''
+据说有五个不同颜色的房间排成一排，每个房间里分别住着一个不同国籍的人，每个人都喝一种特定品牌的饮料，抽一种特定品牌的烟，养一种宠物，没有任意两个人抽相同品牌的香烟，或喝相同品牌的饮料，或养相同的宠物。
 
-            mid = left + int((right - left) / 2)
+问题是谁在养鱼作为宠物？为了寻找答案，爱因斯坦给出了以下 15 条线索。
 
-            if (nums[mid] == target):
-                return mid
+英国人住在红色的房子里；
 
-            elif (target < nums[mid]):
-                right = mid - 1
+瑞典人养狗作为宠物；
 
-            elif (target > nums[mid]):
-                left = mid + 1
+丹麦人喝茶；
 
-        if (left == right and target > nums[left]):
-            return left + 1
+绿房子紧挨着白房子，在白房子的左边；
 
-        else:
-            return left
+绿房子的主人喝咖啡；
+
+抽 Pall Mall 牌香烟的人养鸟；
+
+黄色房子里的人抽 Dunhill 牌香烟；
+
+住在中间那个房子里的人喝牛奶；
+
+挪威人住在第一个房子里面；
+
+抽 Blends 牌香烟的人和养猫的人相邻；
+
+养马的人和抽 Dunhill 牌香烟的人相邻；
+
+抽 BlueMaster 牌香烟的人喝啤酒；
+
+德国人抽 Prince 牌香烟；
+
+挪威人和住在蓝房子的人相邻；
+
+抽 Blends 牌香烟的人和喝矿泉水的人相邻。
+'''
