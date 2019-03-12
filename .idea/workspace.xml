@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e046628c-a983-4b71-ac41-68d5c940e98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interesting Algorithm/WhoIsThief.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Sum II - Input array is sorted/method1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two Sum II - Input array is sorted/method2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interesting Algorithm/CarryAnimal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
@@ -37,17 +35,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="16" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Interesting Algorithm/CarryAnimal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interesting Algorithm/WhoIsThief.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -80,14 +87,15 @@
         <option value="$PROJECT_DIR$/Sqrt(x)/method2.py" />
         <option value="$PROJECT_DIR$/Two Sum II - Input array is sorted/method1.py" />
         <option value="$PROJECT_DIR$/Two Sum II - Input array is sorted/method2.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Interesting Algorithm/WhoIsThief.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Interesting Algorithm/CarryAnimal.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="62" />
+    <option name="x" value="93" />
+    <option name="y" value="149" />
     <option name="width" value="1259" />
     <option name="height" value="1019" />
   </component>
@@ -130,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.WhoIsThief">
+  <component name="RunManager" selected="Python.test">
     <configuration name="WhoIsThief" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,8 +246,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.WhoIsThief" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.WhoIsThief" />
         <item itemvalue="Python.method1 (2)" />
         <item itemvalue="Python.method2 (2)" />
         <item itemvalue="Python.method1 (1)" />
@@ -260,15 +268,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="222" width="1259" height="1019" extended-state="0" />
+    <frame x="93" y="149" width="1259" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24979524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33860046" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4582393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38487583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,17 +464,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interesting Algorithm/WhoIsThief.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interesting Algorithm/CarryAnimal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
