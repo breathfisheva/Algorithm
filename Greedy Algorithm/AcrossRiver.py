@@ -4,7 +4,7 @@
 策略1：最快的和次快的过河，然后最快的将船划回来；次慢的和最慢的过河，然后次快的将船划回来，所需时间为：t[0]+2*t[1]+t[n-1]；
 策略2：最快的和最慢的过河，然后最快的将船划回来，最快的和次慢的过河，然后最快的将船划回来，所需时间为：2*t[0]+t[n-2]+t[n-1]。
 '''
-
+#策略1
 def greedy1(timelist):
     total_time = 0
     length = len(timelist)
@@ -28,6 +28,7 @@ def greedy1(timelist):
 
     print(total_time)
 
+#策略2
 def greedy2(timelist):
     total_time = 0
     length = len(timelist)
