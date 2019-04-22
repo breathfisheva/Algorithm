@@ -17,24 +17,28 @@ Explanation: The answer is "abc", with the length of 3.
 
 '''
 
-s = 'vdvdf'
+s = 'vdf'
 class Solution:
     result = []
     max_num = 0
     def get_str(self, st):
         tmp = []
         for index, item in enumerate(st):
-
-            if index == len(st) - 1 and item not in tmp: #处理最后一个元素的情况
+            if index == len(st) - 1: #处理最后一个元素的情况
                 tmp.append(item)
 
-            if item in tmp:
                 tmp_str = ''.join(str(i) for i in tmp)
                 self.result.append([tmp_str, len(tmp_str)])
                 return [tmp_str, len(tmp_str)]
 
-            else:
+            elif item not in tmp:
                 tmp.append(item)
+
+            else:
+                tmp_str = ''.join(str(i) for i in tmp)
+                self.result.append([tmp_str, len(tmp_str)])
+                return [tmp_str, len(tmp_str)]
+
 
     def lengthOfLongestSubstring(self, s: str) -> int:
         for index in range(len(s)):
@@ -43,8 +47,23 @@ class Solution:
                 self.max_num = num
         return self.max_num
 
+# tmp = []
+# for index, item in enumerate(s):
+#     if index == len(s) - 1:
+#         tmp.append(item)
+#         print(tmp)
+#
+#     elif item not in tmp:
+#         tmp.append(item)
+#
+#     else:
+#         print(tmp)
+#
+
+
 so = Solution()
 print(so.lengthOfLongestSubstring(s))
+
 
 
 
